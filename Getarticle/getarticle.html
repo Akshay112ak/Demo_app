@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./getarticle.css">
+</head>
+<body>
+    <div class="Navbar">
+        <div class="brand">
+            <h2 class="h2conduit"><strong>conduit</strong></h2>
+        </div>
+        <div class="rightalignnavbar">
+            <div class="Home"><a class="navlink" href="../Getarticle/getarticle.html">Home</a></div>
+            <div class="createarticle"><a class="navlink" href="../Createarticle/createarticle.html">Create&nbsp;Article</a></div>
+            <div class="settings"><a class="navlink" href="../Settings/settings.html">Settings</a></div>
+            <div class="settings"><a class="navlink" onclick="Logout()">Logout</a></div>
+        </div>
+    </div>
+    <div class="homegreenlayout">
+        <h1 class="homegreenlayouth1">conduit</h1>
+        <p class="homegreenlayoutp">A place to share your &nbsp;<em>Angular</em>&nbsp; Knowledge</p>
+    </div>
+    <div class="feedmaindiv">
+        <span class="yourfeed" onclick="yourfeed()">Your Feed</span>
+        <span class="globalfeed" onclick="globalfeed()">Global Feed</span>
+    </div>
+    <div id="feed-container" class="feed-container"></div>
+    <script src="./getarticle.js"></script>
+</body>
+</html>

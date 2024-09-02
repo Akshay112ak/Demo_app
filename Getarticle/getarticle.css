@@ -1,0 +1,149 @@
+.Navbar
+{
+    display: flex;
+    padding-top: 1%;
+    justify-content: space-between;
+}
+.brand
+{
+    padding-left: 10%;
+    color: green;
+}
+.h2conduit{
+    margin-block-start: 0%;
+}
+.rightalignnavbar
+{
+    display: flex;
+    padding-right: 13%;
+    padding-top: 1%;
+    width: auto;
+}
+.Home
+{
+    padding: 0% 3%;
+    color: rgba(0,0,0,0.4);
+    width: auto;
+}
+.Home:active
+{
+    padding: 0% 3%;
+    color: rgba(0,0,0,1);
+    width: auto;
+}
+.createarticle
+{
+    padding: 0% 3%;
+    color: rgba(0,0,0,0.4);
+    width: auto;
+}
+.navlink:active
+{
+    padding: 0% 3%;
+    color: rgba(0,0,0,1);
+    width: auto;
+}
+.settings
+{
+    padding: 0% 3%;
+    color: rgba(0,0,0,0.4);
+    width: auto;
+}
+.navlink:active
+:active
+{
+    padding: 0% 3%;
+    color: rgba(0,0,0,1);
+    width: auto;
+}
+.navlink
+{
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+}
+.navlink:visited
+{
+    color: rgba(0,0,0,0.4);
+}
+.navlink:target
+{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+.homegreenlayout
+{
+    background-color: green;
+    color: white;
+    height: 25vh;
+}
+.homegreenlayouth1
+{
+    display: grid;
+    place-items: center;
+    padding-top: 3%;
+    font-size:3em;
+    margin-bottom: 0;
+}
+.homegreenlayoutp
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    margin-top: 0;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.feedmaindiv
+{
+    margin-top:3% ;
+    margin-left: 7%;
+}
+.globalfeed
+{
+    padding-left: 2%;
+}
+.globalfeed:target
+{
+    text-decoration: underline;
+    color: green;
+}
+.yourfeed:target
+{
+    text-decoration: underline;
+    color: green;
+}
+.article
+{
+    margin-left: 7%;
+    
+}
+.articleh3
+{
+    font-weight: normal;
+    margin-block-end: 0;
+}
+.articlespandate
+{
+    padding-left: 1.7%;
+    font-size: .6rem;
+}
+.articlrenderingp
+{
+    font: 0.8em sans-serif;
+    margin-right: 40%;
+}
+.likebutton
+{
+   display: flex;
+   justify-content: end;
+   margin-right: 43%;
+   height: auto;
+}
+.headinrendring
+{
+    display: flex;
+    justify-content:space-between;
+}
