@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./createarticle.css">
+</head>
+<body>
+    <div class="Navbar">
+        <div class="brand">
+           <h2 class="h2conduit"><strong>conduit</strong></h2>
+        </div>
+        <div class="rightalignnavbar">
+           <div class="Home"><a class="navlink" href="../Getarticle/getarticle.html">Home</a></div>
+             <div class="createarticle"><a class="navlink" href="../Createarticle/createarticle.html">Create&nbsp;Artcle</a></div>
+            <div class="settings"><a  class="navlink" href="../Settings/settings.html">Settings</a></div>
+            <div class="settings"><a  class="navlink" onclick="Logout()">Logout</a></div>
+        </div>
+   </div>
+   <div class="card">
+    <h2 class="signincard">Create article</h2>
+    <form method="post" class="form">
+        <div class="emaildiv">
+            Artcile title<br>
+            <input type="text"  class="articletitleinput" name="articletitle" id="articletitle" required>
+        </div>
+        <div class="passworddiv">
+            what is this article about<br>
+            <input type="text"  class="passwordinput" name="about" id="about" required>
+        </div>
+        <div class="passworddiv">
+           write down your article<br>
+           <textarea name="artclesummary" name="articlesummary" class="articletitleinput" rows="8" id="articlesummary" required></textarea>
+        </div>
+        <div class="passworddiv">
+            Enter tags<br>
+            <input type="text"  class="passwordinput" name="tags" id="tags" required>
+        </div>
+        <div class="signinbutton">
+            <input type="submit" value="Publish article" class="sigininput">
+        </div>
+    </form>
+</div>
+<script src="./createarticle.js"></script> 
+</body>
+</html>
